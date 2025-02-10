@@ -1,0 +1,127 @@
+
+body{
+    font-size: 20px;
+    margin:0px 0px 0px 0px;
+}
+.b-photo{
+    width:100%
+}
+.bottom{
+   display:grid;
+   grid-template-rows:1fr ;
+   row-gap:15px;
+   margin-left:15px;
+   margin-right:25px;
+
+}
+.sentence{
+    margin-top:130px;
+    font-size: 25px;
+    margin-left:20px;
+}
+.second{
+    display:grid;
+   grid-template-columns:100px 1fr 1fr ;
+   margin-top:25px;
+   column-gap: 10px;
+   
+   
+}
+.row21,.row31{
+    margin-top:0px;
+    margin-bottom:10px;
+    font-size:22px;
+}
+.row22{
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:22px;
+}
+.row66{
+    display: flex;
+    flex-direction: rows;
+  
+}
+.row24,.row26,.row25{
+    margin-right:10px;
+}
+.row26,.row25{
+    color:blue;
+    cursor: pointer;
+}
+.row36,.row37{
+    margin-top:0px;
+    margin-bottom:0px;
+    
+}
+.row35{
+    margin-bottom:15px;
+}
+.row33{
+    display: grid;
+    grid-template-columns: 25px 1fr;
+}
+.selector1{
+    margin-top:10px;
+    margin-bottom:45px;
+}
+.content{
+    display:grid;
+    grid-template-columns: 1fr 350px;
+}
+@media (max-width:768px){
+    .content{
+        grid-template-columns: 1fr;
+    }
+    .last{
+        display:grid;
+        grid-template-rows:1fr ;
+        row-gap:15px;
+        margin-left:15px;
+        margin-right:25px;
+        margin-top:25px
+    }
+}
+.b-left{
+    padding: 10px 10px 10px 15px;
+    
+    border-color:black;
+    border-width: 1px;
+    border-style:solid;
+}
+.first{
+    font-size: 20px;
+    color:blue;
+}
+
+.last{
+    border-color:black;
+    border-width: 1px;
+    border-style: solid;
+    margin-right: 15px;
+    height:350px;
+    font-size: 20px;
+
+}
+.last2{
+    display:grid;
+    grid-template-columns: 1fr 100px;
+}
+.last3,.last1{
+    margin-left:15px;
+}
+.last12{
+    text-align: right;
+    margin-right:15px;
+}
+.l-button{
+    height:40px;
+    width:300px;
+    margin-left:15px;
+    border-radius: 10px;
+    background-color: rgb(234, 188, 21) !important;
+    font-size: 15px;
+}
+.last5,.last1{
+    font-size:22px;
+}

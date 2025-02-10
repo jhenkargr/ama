@@ -1,0 +1,42 @@
+p{
+    font-size: 20px;
+}
+
+.pho{
+    height:140px;
+}
+.bottom{
+    margin:30px 100px 30px 100px;
+    padding-top: 50px;
+}
+.box{
+    height:30px;
+    width:100%;
+    border-color: rgb(25, 54, 129);
+    border-style: solid ;
+    border-radius: 50px;
+}
+.box-header{
+    background-color: green;
+    width:50%;
+    height: 100%;
+    border-radius: 50px;
+}
+.track{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 25px;
+}
+.t-text1{
+    text-align: center;
+}
+.t-text2{
+    text-align: end;
+}
+.view{
+    cursor: pointer;
+    transition:color;
+}
+.view:hover{
+    color: rgb(14, 150, 105);
+}
